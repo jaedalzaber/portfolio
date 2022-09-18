@@ -1,0 +1,29 @@
+@import '../../../style.scss';
+
+.go-back--text {
+	font-weight    : 600;
+	font-size      : 16px;
+	line-height    : 108%;
+	color          : $color-text-light;
+	margin-left    : 15px;
+
+	transform      : all .25s ease;
+	
+	&:hover {
+		color         : $color-primary;
+		font-weight   : 700;
+		
+		//TODO: fix arrow hover
+		.arrow-left-svg>path {
+			stroke         : $color-primary;
+			stroke-width  : 3px;
+		}
+	}
+}
+
+.go-back--btn {
+	display        : flex;
+	align-items    : center;
+
+}
+

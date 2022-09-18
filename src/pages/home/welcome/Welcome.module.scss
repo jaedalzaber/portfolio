@@ -1,0 +1,184 @@
+@import '../../../style.scss';
+
+
+.grid {
+	display: grid;
+	grid-gap: 1px;
+	border-left: 1px solid $color-grid;
+
+	&--item {
+		background-color: $color-white;
+	}
+}
+
+.mg-l-50 {
+	margin-left: 50px;
+}
+
+
+.welcome {
+	height: 100vh;
+
+	grid-template-columns: minmax(370px, 1fr) 157px 124px 158px 164px minmax(0, 158px) 7%;
+	grid-template-rows: minmax(100px, 150px) 52px 139px 239px 222px minmax(150px, 220px);
+
+	&--item-1 {
+		background-color: $color-primary  !important;
+		grid-area: 1 / 1 / 3 / 2;
+		position: relative;
+
+		.title-thin {
+			display: block;
+			font-family: 'Poppins';
+			font-style: normal;
+			font-weight: 275;
+			font-size: 68px;
+			line-height: 106px;
+			color: #F4F6FF;
+			bottom: 0;
+			position: absolute;
+			padding: 0;
+			margin-bottom: -30px;
+		}
+
+		.title-bold {
+			display: block;
+			font-family: 'Poppins';
+			font-style: normal;
+			font-weight: 700;
+			font-size: 20px;
+			line-height: 20px;
+			color: $color-white;
+			bottom: 0;
+			position: absolute;
+			padding-bottom: 10px;
+			margin-bottom: 80px;
+			border-bottom: solid 4px $color-white;
+		}
+	}
+
+	&--item-2 {
+		grid-area: 1 / 2 / 2 / 4;
+	}
+
+	&--item-3 {
+		grid-area: 2 / 2 / 3 / 4;
+	}
+
+	&--item-15 {
+		grid-area: 2 / 4 / 3 / 5;
+	}
+
+	&--item-16 {
+		grid-area: 2 / 5 / 3 / 6;
+	}
+
+	&--item-4 {
+		grid-area: 1 / 7 / 7 / 8;
+	}
+
+	&--item-5 {
+		grid-area: 4 / 1 / 5 / 2;
+		border-left: solid 4px $color-primary;
+		display: flex;
+		align-items: center;
+
+		.text-welcome {
+			font-size: 20px;
+			line-height: 3.5rem;
+			letter-spacing: 0.025em;
+			color: $color-text-dark;
+			margin-left: 50px;
+
+			&__bold {
+				font-weight: bold;
+			}
+		}
+	}
+
+	&--item-6 {
+		grid-area: 4 / 5 / 5 / 6;
+		border-right: solid 4px $color-primary;
+	}
+
+	&--item-7 {
+		grid-area: 6 / 2 / 7 / 5;
+		border-bottom: solid 60px $color-primary;
+	}
+
+	&--item-8 {
+		grid-area: 5 / 5 / 7 / 6;
+	}
+
+	&--item-9 {
+		grid-area: 5 / 6 / 7 / 7;
+	}
+
+	&--item-10 {
+		grid-area: 6 / 1 / 7 / 2;
+		display: flex;
+		align-items: center;
+
+		.text-go {
+			font-family: 'Poppins';
+			font-style: normal;
+			font-weight: 275;
+			font-size: 64px;
+			line-height: 90%;
+		}
+	}
+
+	&--item-11 {
+		grid-area: 7 / 1 / 8 / 8;
+	}
+
+	&--item-19_1 {
+		grid-area: 2 / 2 / 6 / 6;
+		background-color: transparent !important;
+
+		.hero-jaed {
+			margin-top: -16px;
+		}
+	}
+
+	&--item-19 {
+		grid-area: 3 / 2 / 4 / 3;
+	}
+
+	&--item-20 {
+		grid-area: 3 / 3 / 4 / 4;
+	}
+
+	&--item-21 {
+		grid-area: 3 / 4 / 4 / 5;
+	}
+
+	&--item-22 {
+		grid-area: 3 / 5 / 4 / 6;
+	}
+
+	&--item-24 {
+		grid-area: 4 / 2 / 5 / 3;
+	}
+
+	&--item-25 {
+		grid-area: 4 / 3 / 5 / 4;
+	}
+
+	&--item-26 {
+		grid-area: 4 / 4 / 5 / 5;
+	}
+
+	&--item-29 {
+		grid-area: 5 / 2 / 6 / 3;
+	}
+
+	&--item-30 {
+		grid-area: 5 / 3 / 6 / 4;
+	}
+
+	&--item-31 {
+		grid-area: 5 / 4 / 6 / 5;
+	}
+}
+

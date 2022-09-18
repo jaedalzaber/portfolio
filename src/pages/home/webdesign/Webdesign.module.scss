@@ -1,0 +1,161 @@
+@import '../../../style.scss';
+
+.wrapper {
+	background-color: $color-white;
+	width: 100vw;
+	min-height: 100vh;
+
+	position: relative;
+}
+
+.container {
+	display          : flex;
+	flex-direction   : column;
+	justify-content  : center;
+	align-items      : center;
+
+	max-width        : 1024px;
+	// padding          : 0 100px;
+	margin           : 0 auto;
+
+	position         : relative;
+}
+
+.motion--header {
+	display          : flex;
+	justify-content  : space-between;
+	align-items      : flex-end;
+
+	padding-bottom   : 50px;
+	min-width        : 100%;
+
+	.header-icon {
+		// margin-right: calc(7% - 20px);
+
+		&>* {
+			width          : 70px;
+		}
+	}
+}
+
+.motion-title {
+	font-weight      : 500;
+	font-size        : 20px;
+	line-height      : 107.5%;
+	letter-spacing   : -0.045em;
+	color            : $color-text-light;
+
+	
+}
+
+.title {
+	margin-top       : 100px !important;
+	
+	&__bold {
+		font-size: 30px !important;
+	}
+
+	&__light {
+		font-size: 18px !important;
+	}
+} 
+
+.grid {
+	flex             : 1 1 auto;
+	min-width        : auto;
+
+	.viewer {
+		// min-width: 1280px;
+		// max-width       : 1280px
+	}
+}
+
+.hamburger {
+	min-width        : 5.7%;
+	display          : flex;
+	justify-content  : center;
+	align-items      : flex-start;
+
+	position         : fixed;
+	right            : 0px;
+	top              : 0;
+	padding          : 40px 1% 40px 1%;
+
+	&-icon {
+		width           : 30[x];
+		// margin-right: -5px;
+	}
+}
+
+.logo {
+	position         : fixed;
+	left             : 0px;
+	top              : 0;
+	padding          : 40px 1% 40px 9rem;
+}
+
+.arrow-left, .arrow-right {
+	position         : fixed;
+	top: calc(100vh / 2 - 30px);
+	padding          : 40px 40px;
+	border-radius: 5px;
+
+	transition: all .25s ease-out;
+
+	&:hover {
+		background-color: rgba(0, 0, 0, 0.041);
+	}
+
+	&:active {
+		background-color: $color-primary;
+	}
+}
+
+.arrow-left{
+	left             : 9rem;
+}
+
+.arrow-right {
+	right             : 9rem;
+}
+
+.video-container {
+	border-radius: 15px;
+	border: solid 4px rgb(82, 82, 82);
+	background-color: rgb(82, 82, 82);
+	max-height: 584px;
+	min-height: 584px;
+
+	position: relative;
+	overflow: hidden;
+}
+
+.video-container>video {
+	border-radius: 15px;
+	overflow: hidden;
+}
+
+.video-border {
+	border-radius: 12px;
+	border: solid 6px rgb(82, 82, 82);
+	max-height: 577px;
+	min-height: 577px;
+	min-width: 1024px;
+
+	position: absolute;
+	top: 0;
+	pointer-events: none;
+}
+
+.go-back {
+	align-self: flex-start;
+}
+
+.navigator {
+	display          : flex;
+	justify-content  : space-between;
+	align-items      : center;
+
+	min-width        : 100%;
+	margin-top: 40px;
+}

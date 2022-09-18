@@ -1,0 +1,52 @@
+@import "../style.scss";
+
+.palette {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+
+	width: 100%;
+
+	&--item {
+		position: relative;
+		width: 100%;
+		height: 150px;
+	}
+
+	&--color-code {
+		position: absolute;
+		bottom: 15px;
+		left: 15px;
+
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 107.5%;
+		letter-spacing: -0.045em;
+	}
+
+	&--color-code__right {
+		position: absolute;
+		bottom: 15px;
+		right: 15px;
+
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 107.5%;
+		letter-spacing: -0.045em;
+	}
+
+	.gradient {
+		grid-column: 1/span 4;
+		height: 75px;
+	}
+}
+
+.text {
+	&--light {
+		color: $color-white;
+	}
+	&--dark {
+		color: #39342b;
+		font-weight: 600;
+	}
+}
+

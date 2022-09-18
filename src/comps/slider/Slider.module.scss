@@ -1,0 +1,47 @@
+@import '../../style.scss';
+
+.slider {
+	// max-width          : 600px;
+	// position: absolute;
+	display: flex;
+	gap: 0px;
+	min-width: min-content;
+}
+
+.slide-item {
+	margin-left: 50px;
+	flex-shrink: 0;
+	flex-basis: 36%;
+
+	&--index {
+		font-weight: 700;
+		font-size: 64px;
+		line-height: 108%;
+		letter-spacing: -0.05em;
+		color: $color-text-dark;
+	}
+
+	&--title {
+		font-weight: 600;
+		font-size: 20px;
+		line-height: 108%;
+		letter-spacing: -0.045em;
+		color: $color-text-dark;
+		margin-top: 85px;
+	}
+
+	&--subtitle {
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 108%;
+		letter-spacing: -0.045em;
+		color: rgba(85, 85, 85, 0.67);
+		margin-top: 3px;
+	}
+
+	&--image {
+		width: 100%;
+		margin-top: 20px;
+	}
+}
+

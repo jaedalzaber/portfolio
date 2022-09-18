@@ -1,0 +1,15 @@
+@import '../../../style.scss';
+
+.see-more--text {
+	font-weight: 400;
+	font-size: 38px;
+	line-height: 108%;
+	color: $color-white;
+	margin-right: 30px;
+}
+
+.see-more--btn {
+	// margin-top: 20px;
+	display: flex;
+	align-items: center;
+}
