@@ -268,15 +268,15 @@ export const Anime_3d = {
 	subtitle: 'Motion Design',
 
 	item: [
-		{
-			title: 'Eazy Card Explainer',
-			titlePos: '1',
-			position: '2-3',
-			media: process.env.PUBLIC_URL + '/assets/vid/ez-card.mp4',
-			thumb: process.env.PUBLIC_URL + '/assets/img/eazy_thumb.png',
-			nogap: true,
-			isVideo: true,
-		},
+		// {
+		// 	title: 'Eazy Card Explainer',
+		// 	titlePos: '1',
+		// 	position: '2-3',
+		// 	media: process.env.PUBLIC_URL + '/assets/vid/ez-card.mp4',
+		// 	thumb: process.env.PUBLIC_URL + '/assets/img/eazy_thumb.png',
+		// 	nogap: true,
+		// 	isVideo: true,
+		// },
 		{
 			position: '2-3',
 			subtitle: 'Shikha Academy - Promotional',
@@ -284,20 +284,20 @@ export const Anime_3d = {
 			thumb: process.env.PUBLIC_URL + '/assets/img/shikha_thumb.png',
 			isVideo: true,
 		},
-		{
-			position: '2-3',
-			subtitle: 'Admission Agent - BlockChain',
-			media: process.env.PUBLIC_URL + '/assets/vid/s2j.mp4',
-			thumb: process.env.PUBLIC_URL + '/assets/img/s2j_thumb.png',
-			isVideo: true,
-		},
-		{
-			position: '2-3',
-			subtitle: 'UIU Mun Club Intro',
-			media: process.env.PUBLIC_URL + '/assets/vid/mun.mp4',
-			thumb: process.env.PUBLIC_URL + '/assets/img/mun_thumb.png',
-			isVideo: true,
-		},
+		// {
+		// 	position: '2-3',
+		// 	subtitle: 'Admission Agent - BlockChain',
+		// 	media: process.env.PUBLIC_URL + '/assets/vid/s2j.mp4',
+		// 	thumb: process.env.PUBLIC_URL + '/assets/img/s2j_thumb.png',
+		// 	isVideo: true,
+		// },
+		// {
+		// 	position: '2-3',
+		// 	subtitle: 'UIU Mun Club Intro',
+		// 	media: process.env.PUBLIC_URL + '/assets/vid/mun.mp4',
+		// 	thumb: process.env.PUBLIC_URL + '/assets/img/mun_thumb.png',
+		// 	isVideo: true,
+		// },
 		{
 			position: '2-3',
 			subtitle: 'Eid Mobarak - Social Post',
@@ -385,13 +385,13 @@ export const Anime_ui = {
 			media: process.env.PUBLIC_URL + '/assets/vid/icons_2d.mp4',
 			thumb: process.env.PUBLIC_URL + '/assets/img/ico_2d.png',
 		},
-		{
-			position: '1-2',
-			isVideo: true,
-			subtitle: '3d Animated Icon design in Blender',
-			media: process.env.PUBLIC_URL + '/assets/vid/icons.mp4',
-			thumb: process.env.PUBLIC_URL + '/assets/img/psim08.png',
-		},
+		// {
+		// 	position: '1-2',
+		// 	isVideo: true,
+		// 	subtitle: '3d Animated Icon design in Blender',
+		// 	media: process.env.PUBLIC_URL + '/assets/vid/icons.mp4',
+		// 	thumb: process.env.PUBLIC_URL + '/assets/img/psim08.png',
+		// },
 
 	]
 }

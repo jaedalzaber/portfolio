@@ -6,11 +6,7 @@ let jaed = process.env.PUBLIC_URL +  '/assets/img/hero.png'
 
 
 const Welcome = React.forwardRef((props, ref) =>  {
-	const { scroll } = useLocomotiveScroll();
 
-	useEffect(()=> {
-		
-	});
 	return ( 
 		<div className={`${styles.grid} ${styles.welcome}`} data-scroll-section>
 					<div className={`${styles['grid--item']} ${styles['welcome--item-1']}`}>
